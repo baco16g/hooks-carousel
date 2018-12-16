@@ -13,6 +13,7 @@
     "no-console": false,
     "interface-name": false,
     "no-empty-interface": false,
-    "no-floating-promises": false
+    "no-floating-promises": false,
+    "object-literal-sort-keys": false
   }
 }
