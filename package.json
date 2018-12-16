@@ -16,7 +16,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-check": "tslint-config-prettier-check ./tslint.json",
+    "lint": "tslint -c ./tslint.json --exclude **/*.d.ts --exclude ./node_modules --project . --fix **/*.{ts,tsx}",
+    "prettier": "prettier --write ./{src,__tests__}/**/*.{ts,tsx}"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +29,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.3",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react": "^3.6.0"
+  }
 }
