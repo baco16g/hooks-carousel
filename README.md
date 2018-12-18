@@ -48,6 +48,10 @@ interval | number | 2000(ms) | Interval when switching automatically
 * [amio/re-carousel](https://github.com/amio/re-carousel)
 * [blue-harvest/carousel-react-hooks-example](https://github.com/blue-harvest/carousel-react-hooks-example)
 
+## ToDos
+
+* Replace UI widget with [retoggle](https://github.com/Raathigesh/retoggle).
+
 ## Author
 
 baco16g (Yuki kobayashi)
