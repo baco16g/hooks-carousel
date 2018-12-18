@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["es2018","dom"],
     "target": "es5",
     "allowJs": true,
     "skipLibCheck": false,
@@ -12,7 +13,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "typeRoots": ["typings"]
   },
   "include": [
     "src"
