@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Practice ["React Hooks"](https://reactjs.org/docs/hooks-overview.html).
 
+## Demo
+
+https://baco16g.github.io/hooks-carousel
+
 ## Usage
 
 ```zsh
