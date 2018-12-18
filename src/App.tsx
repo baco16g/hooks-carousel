@@ -1,7 +1,7 @@
 import React, { ChangeEvent, useMemo, useState } from 'react'
 import styled, { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
-import Curousel from './Curousel'
+import Carousel from './Carousel'
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -96,12 +96,12 @@ export default function App() {
     <>
       <GlobalStyle />
       <Title>
-        <span>Curousel</span>
+        <span>Carousel</span>
         <br />
         with React Hooks
       </Title>
       <Section>
-        <Curousel options={{ arrowColor, auto, dotColor, duration, interval, loop, threshold }}>{frames}</Curousel>
+        <Carousel options={{ arrowColor, auto, dotColor, duration, interval, loop, threshold }}>{frames}</Carousel>
       </Section>
       <Widget>
         <WidgetInner>

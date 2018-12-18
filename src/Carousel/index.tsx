@@ -28,7 +28,7 @@ const defaultOptions = {
   interval: 2000,
 }
 
-export default function Curousel({ children: frames, options }: Props) {
+export default function Carousel({ children: frames, options }: Props) {
   const _options = { ...defaultOptions, ...options }
   const containerRef: RefObject<HTMLDivElement> = useRef(null)
   const {
