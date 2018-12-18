@@ -42,6 +42,12 @@ loop | boolean | true | Whether to repeat the slide or not
 auto | boolean | true | Whether to repeat whether to automatically switch the slide or not
 interval | number | 2000(ms) | Interval when switching automatically
 
+## Reference material
+
+* [takefumi-yoshii/react-hooks-ogiri](https://github.com/takefumi-yoshii/react-hooks-ogiri)
+* [amio/re-carousel](https://github.com/amio/re-carousel)
+* [blue-harvest/carousel-react-hooks-example](https://github.com/blue-harvest/carousel-react-hooks-example)
+
 ## Author
 
 baco16g (Yuki kobayashi)
