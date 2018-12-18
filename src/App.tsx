@@ -78,7 +78,14 @@ export default function App() {
   const handleDuration = (event: ChangeEvent<HTMLInputElement>) => setDuration(+event.target.value)
   const handleInterval = (event: ChangeEvent<HTMLInputElement>) => setInterval(+event.target.value)
   const handleThreshold = (event: ChangeEvent<HTMLInputElement>) => setThreshold(+event.target.value)
-  const handleLength = (event: ChangeEvent<HTMLInputElement>) => setLength(+event.target.value)
+  const handleLength = (event: ChangeEvent<HTMLInputElement>) => {
+    const val = +event.target.value
+    if (val > 10) {
+      alert('Max length is 10!')
+      return
+    }
+    setLength(+event.target.value)
+  }
 
   const frames = useMemo(
     () =>
